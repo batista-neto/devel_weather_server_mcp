@@ -4,8 +4,8 @@ import mongoose from 'mongoose';
 const userSchema = new mongoose.Schema({
     id: { type: mongoose.Schema.Types.ObjectId },
     name: { type: String, required: true },
-    email: { type: String, requeired: true },
-    password: { type: String, requeired: true },
+    email: { type: String, required: true },
+    password: { type: String, required: true },
     cel: { type: String }
 }, { versionKey: false });
 
